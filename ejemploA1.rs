@@ -5,7 +5,7 @@
 
 
 fn main()  {   
-  let check : bool = true;    // suppose it is true
-  assert!(check == true);   // check the error
+  let check : bool = true;    // suponemos que es verdadero
+  assert!(check == true);   // validamos el error
   println!("{}", check);
 }
