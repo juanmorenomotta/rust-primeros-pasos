@@ -1,3 +1,8 @@
+/*
+* Funciones: Con y Sin retorno de datos
+*/
+
+
 fn main(){
   suma(100, 200);
 

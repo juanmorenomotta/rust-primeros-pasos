@@ -1,15 +1,16 @@
 use std::io;
 
 fn main() {
-    println!("Guess the number!");
+    println!("Validación de Código de Invitado");
+    println!("================================");
 
-    println!("Please input your guess.");
+    println!("Ingrese su código de invitado: ");
 
-    let mut guess = String::new();
+    let mut cod_invitado = String::new();
 
     io::stdin()
-        .read_line(&mut guess)
-        .expect("Failed to read line");
+        .read_line(&mut cod_invitado)
+        .expect("No puede leer!!!");
 
-    println!("You guessed: {}", guess);
+    println!("Su código de invitado es: {}", cod_invitado);
 }

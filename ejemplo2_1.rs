@@ -1,3 +1,7 @@
+/*
+* Tipos de datos, Variables y Constantes
+*/
+
 fn main(){
   let numero = 88;
   let var = "OK";

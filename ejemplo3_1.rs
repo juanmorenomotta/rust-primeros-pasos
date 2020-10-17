@@ -1,3 +1,6 @@
+/*
+* Variable binding
+*/ 
 fn main(){
   let (x, y) = (100, 200);   // variable-binding
   /*

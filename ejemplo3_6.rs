@@ -1,3 +1,7 @@
+/*
+* Array y Slice
+*/
+
 fn main() {
   let mut a: [i32; 4] = [8; 4];    // creamos el array a con valores por Default
   println!("{} {} {} {}",a[0], a[1], a[2], a[3]);

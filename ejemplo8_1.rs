@@ -19,8 +19,8 @@ impl Circulo{        // implementa la estructura
   }
   
   fn perimetro(&self) -> f32 { // define el metodo perimetro()
-    let dos: f32 = 2.0;
-    std::f32::consts::PI * dos * self.radio
+    //let dos: f32 = 2.0;
+    std::f32::consts::PI * 2.0f32 * self.radio
   }
 
 }
