@@ -21,6 +21,6 @@ impl<T> Show for T        // implementando el trait con objeto tipo generico
   
 fn main(){
   String::from("Bienvenido al mundo de Rust").show();     // llama al metodo show()
-  String::from("Bienvenido al mundo de Rust").lenght();     // llama al metodo show()
-  "hello".to_string().lenght();
+  String::from("Bienvenido al mundo de Rust").lenght();     // llama al metodo lenght()
+  "Hola Mundo".to_string().lenght();
 }
