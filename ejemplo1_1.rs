@@ -3,5 +3,5 @@
 */
 fn main(){
   // imprime un mensaje en la consola.
-  println!("Bienvenido a el Mundo de Rust");  
+  println!("Bienvenido al Mundo de Rust");  
 }
